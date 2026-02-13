@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/optimize-images.js && vite build",
+    "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "optimize-images": "node scripts/optimize-images.js"
+    "preview": "vite preview"
   },
   "dependencies": {
     "bootstrap": "^5.3.0",
