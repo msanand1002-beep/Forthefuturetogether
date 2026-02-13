@@ -46,7 +46,7 @@ const OptimizedImage = ({
 
   // Generate WebP and AVIF sources for modern browsers
   const getSrcSet = (originalSrc) => {
-    if (!originalSrc || originalSrc.endsWith('.gif') || originalSrc.endsWith('.mp3')) {
+    if (!originalSrc || originalSrc.endsWith('.gif') || originalSrc.endsWith('.MP3')) {
       return originalSrc;
     }
     
@@ -102,7 +102,7 @@ const OptimizedImage = ({
       {isInView && (
         <picture style={{ width: '100%', height: '100%' }}>
           {/* AVIF format for modern browsers (best compression) */}
-          {src && !src.endsWith('.gif') && !src.endsWith('.mp3') && (
+          {src && !src.endsWith('.gif') && !src.endsWith('.MP3') && (
             <source 
               srcSet={src.replace(/\.(jpg|jpeg|png)$/i, '.avif')} 
               type="image/avif" 
@@ -110,7 +110,7 @@ const OptimizedImage = ({
           )}
           
           {/* WebP format for broader support */}
-          {src && !src.endsWith('.gif') && !src.endsWith('.mp3') && (
+          {src && !src.endsWith('.gif') && !src.endsWith('.MP3') && (
             <source 
               srcSet={src.replace(/\.(jpg|jpeg|png)$/i, '.webp')} 
               type="image/webp" 
@@ -162,5 +162,6 @@ const OptimizedImage = ({
     </div>
   );
 };
+
 
 export default OptimizedImage;
