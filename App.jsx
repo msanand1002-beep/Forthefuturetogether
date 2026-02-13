@@ -248,21 +248,21 @@ function App() {
 
           <div className="gifts-container">
             <div className="gift-card" onClick={handleGift1Click}>
-              <h3 className="gift-title">Gift 1</h3>
+              <h3 className="gift-title">Gift1</h3>
               <div className="gift-image">
                 <img src={config.gifts.gift1.jpg} alt="gift1" loading="lazy" />
               </div>
             </div>
 
             <div className="gift-card" onClick={handleGift2Click}>
-              <h3 className="gift-title">Gift 2</h3>
+              <h3 className="gift-title">Gift2</h3>
               <div className="gift-image">
                 <img src={config.gifts.gift2.jpg} alt="gift2" loading="lazy" />
               </div>
             </div>
 
             <div className="gift-card" onClick={handleGift3Click}>
-              <h3 className="gift-title">Gift 3</h3>
+              <h3 className="gift-title">Gift3</h3>
               <div className="gift-image">
                 <img src={config.gifts.gift3.jpg} alt="gift3" loading="lazy" />
               </div>
@@ -470,7 +470,7 @@ function App() {
         <div className="card photos-card">
           <h1 className="yay">{config.content.photosTitle}</h1>
           <div className="photos-grid">
-            {config.couple_Photos.map((photo, index) => (
+            {config.couple_photo.map((photo, index) => (
               <motion.div
                 key={index}
                 className="photo-card"
@@ -479,7 +479,7 @@ function App() {
               >
                 <div className={`photo-frame vintage-${index + 1}`}>
                   <img
-                    src={photo.image}
+                    src={couple_photo}
                     alt={`Memory ${index + 1}`}
                     loading="lazy"
                   />
@@ -781,4 +781,5 @@ function App() {
 }
 
 export default App;
+
 
