@@ -104,7 +104,7 @@
       "album": "Moonu",
       "artist": "Anirudh",
       "cover": "/src/assets/album-covers/Nee-Partha.jpg",
-      "audio": "/src/assets/songs/Nee-Partha.mp3"
+      "audio": "/src/assets/songs/Nee-Partha.MP3"
     },
     {
       "id": 2,
@@ -113,7 +113,7 @@
       "album": "Mariyan",
       "artist": "A.R.Rahuman",
       "cover": "/src/assets/album-covers/Innum-Konjam-Neram.jpg",
-      "audio": "/src/assets/songs/Innum-Konjam-Neram.mp3"
+      "audio": "/src/assets/songs/Innum-Konjam-Neram.MP3"
     },
     {
       "id": 3,
@@ -122,7 +122,7 @@
       "album": "Jodha Akbar",
       "artist": "A.R.Rahuman",
       "cover": "/src/assets/album-covers/Mulumathy-Avalathu-Mugaam.jpg",
-      "audio": "/src/assets/songs/Mulumathy-Avalathu-Mugaam.mp3"
+      "audio": "/src/assets/songs/Mulumathy-Avalathu-Mugaam.MP3"
     },
     {
       "id": 4,
@@ -131,7 +131,7 @@
       "album": "Virumandi",
       "artist": "Kamal hassan",
       "cover": "/src/assets/album-covers/Unnaivida.jpg",
-      "audio": "/src/assets/songs/Unnaivida.mp3"
+      "audio": "/src/assets/songs/Unnaivida.MP3"
     },
     {
       "id": 5,
@@ -140,7 +140,7 @@
       "album": "Veyil",
       "artist": "G.V.Prakash",
       "cover": "/src/assets/album-covers/Urugudhe-Maragudhe.jpg",
-      "audio": "/src/assets/songs/Urugudhe-Maragudhe.mp3"
+      "audio": "/src/assets/songs/Urugudhe-Maragudhe.MP3"
     }
   ],
   "letter": {
@@ -166,3 +166,4 @@
     "pause": "Pause"
   }
 }
+
