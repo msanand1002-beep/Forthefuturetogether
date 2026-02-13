@@ -177,8 +177,8 @@ function App() {
 
           <div className="image-card">
             <img
-              src={config.media.loveYouBearGif}
-              alt="cute gif"
+              src={config.media.love-you-bear.gif}
+              alt="rose-bear"
               loading="lazy"
             />
           </div>
@@ -250,21 +250,21 @@ function App() {
             <div className="gift-card" onClick={handleGift1Click}>
               <h3 className="gift-title">Gift 1</h3>
               <div className="gift-image">
-                <img src={config.gifts.gift1} alt="gift 1" loading="lazy" />
+                <img src={config.gifts.gift1.jpg} alt="gift1" loading="lazy" />
               </div>
             </div>
 
             <div className="gift-card" onClick={handleGift2Click}>
               <h3 className="gift-title">Gift 2</h3>
               <div className="gift-image">
-                <img src={config.gifts.gift2} alt="gift 2" loading="lazy" />
+                <img src={config.gifts.gift2.jpg} alt="gift2" loading="lazy" />
               </div>
             </div>
 
             <div className="gift-card" onClick={handleGift3Click}>
               <h3 className="gift-title">Gift 3</h3>
               <div className="gift-image">
-                <img src={config.gifts.gift3} alt="gift 3" loading="lazy" />
+                <img src={config.gifts.gift3.jpg} alt="gift3" loading="lazy" />
               </div>
             </div>
           </div>
@@ -273,8 +273,8 @@ function App() {
             <div className="all-gifts-opened">
               <div className="love-you-bear-container">
                 <img
-                  src={config.media.loveYouBearGif}
-                  alt="love you bear"
+                  src={config.media.love-you-bear.gif}
+                  alt="love-you-bear"
                   loading="lazy"
                 />
               </div>
@@ -318,8 +318,8 @@ function App() {
                 >
                   <div className="album-art">
                     <img
-                      src={currentSong.cover}
-                      alt="Album Cover"
+                      src={currentSong.album-covers}
+                      alt="album-covers"
                       loading="lazy"
                       className="album-image"
                     />
@@ -470,7 +470,7 @@ function App() {
         <div className="card photos-card">
           <h1 className="yay">{config.content.photosTitle}</h1>
           <div className="photos-grid">
-            {config.couplePhotos.map((photo, index) => (
+            {config.couple_Photos.map((photo, index) => (
               <motion.div
                 key={index}
                 className="photo-card"
@@ -573,8 +573,8 @@ function App() {
           transition={{ duration: 0.6, ease: "backOut" }}
         >
           <motion.img
-            src={config.media.mainBearGif}
-            alt="cute bear"
+            src={config.media.cute-bear.gif}
+            alt="cute-bear"
             className="card-image"
             loading="lazy"
             whileHover={{ scale: 1.05 }}
@@ -730,7 +730,7 @@ function App() {
                       whileTap={{ scale: 0.9 }}
                     >
                       <img
-                        src={config.media.leftButton}
+                        src={config.media.left-Button.png}
                         alt="previous"
                         className="nav-btn-img"
                       />
@@ -745,7 +745,7 @@ function App() {
                       whileTap={{ scale: 0.9 }}
                     >
                       <img
-                        src={config.media.rightButton}
+                        src={config.media.right-Button.png}
                         alt="next"
                         className="nav-btn-img"
                       />
@@ -761,7 +761,7 @@ function App() {
                   <h3 className="card-title">❌ Cons</h3>
                   <div className="cons-content">
                     <img
-                      src={config.media.childGif}
+                      src={config.media.child.gif}
                       alt="child"
                       className="cons-gif"
                       loading="lazy"
@@ -781,3 +781,4 @@ function App() {
 }
 
 export default App;
+
