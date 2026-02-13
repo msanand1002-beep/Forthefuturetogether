@@ -217,7 +217,7 @@ function App() {
                 },
               }}
             >
-              I LOVE YOU❤️
+              I LOVE YOU,Alagii❤️
             </motion.h2>
           </motion.div>
 
@@ -250,21 +250,21 @@ function App() {
             <div className="gift-card" onClick={handleGift1Click}>
               <h3 className="gift-title">Gift 1</h3>
               <div className="gift-image">
-                <img src={config.gifts.gift1} alt="gift 1" loading="lazy" />
+                <img src={config.gifts.gift1.jpg} alt="gift 1" loading="lazy" />
               </div>
             </div>
 
             <div className="gift-card" onClick={handleGift2Click}>
               <h3 className="gift-title">Gift 2</h3>
               <div className="gift-image">
-                <img src={config.gifts.gift2} alt="gift 2" loading="lazy" />
+                <img src={config.gifts.gift2.jpg} alt="gift 2" loading="lazy" />
               </div>
             </div>
 
             <div className="gift-card" onClick={handleGift3Click}>
               <h3 className="gift-title">Gift 3</h3>
               <div className="gift-image">
-                <img src={config.gifts.gift3} alt="gift 3" loading="lazy" />
+                <img src={config.gifts.gift3.jpg} alt="gift 3" loading="lazy" />
               </div>
             </div>
           </div>
@@ -273,14 +273,14 @@ function App() {
             <div className="all-gifts-opened">
               <div className="love-you-bear-container">
                 <img
-                  src={config.media.loveYouBearGif}
+                  src={config.media.love-you-bear.gif}
                   alt="love you bear"
                   loading="lazy"
                 />
               </div>
               <p className="all-gifts-text">
-                Yayyyy!! You opened all the gifts! <br />
-                LOVE YOU SO MUCH PATOOTIEE!❤️
+                Yayyyy!! You opened all the gifts,honey! <br />
+                LOVE YOU SO MUCH Ennavalae!❤️
               </p>
             </div>
           ) : (
@@ -479,7 +479,7 @@ function App() {
               >
                 <div className={`photo-frame vintage-${index + 1}`}>
                   <img
-                    src={photo.image}
+                    src={couple_photo}
                     alt={`Memory ${index + 1}`}
                     loading="lazy"
                   />
@@ -573,7 +573,7 @@ function App() {
           transition={{ duration: 0.6, ease: "backOut" }}
         >
           <motion.img
-            src={config.media.mainBearGif}
+            src={config.media.cute-bear.gif}
             alt="cute bear"
             className="card-image"
             loading="lazy"
@@ -653,7 +653,7 @@ function App() {
                 ✕
               </button>
               <p className="popup-text">
-                Maybe I should explain the perks of being my Valentine… let me
+                Maybe I should explain the benefits of being my Valentine… let me
                 tell you 😉
               </p>
               <motion.button
@@ -730,7 +730,7 @@ function App() {
                       whileTap={{ scale: 0.9 }}
                     >
                       <img
-                        src={config.media.leftButton}
+                        src={config.media.left-Button.png}
                         alt="previous"
                         className="nav-btn-img"
                       />
@@ -745,7 +745,7 @@ function App() {
                       whileTap={{ scale: 0.9 }}
                     >
                       <img
-                        src={config.media.rightButton}
+                        src={config.media.right-Button.png}
                         alt="next"
                         className="nav-btn-img"
                       />
@@ -761,7 +761,7 @@ function App() {
                   <h3 className="card-title">❌ Cons</h3>
                   <div className="cons-content">
                     <img
-                      src={config.media.childGif}
+                      src={config.media.child.gif}
                       alt="child"
                       className="cons-gif"
                       loading="lazy"
@@ -781,3 +781,4 @@ function App() {
 }
 
 export default App;
+
